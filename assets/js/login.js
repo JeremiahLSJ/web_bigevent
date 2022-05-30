@@ -56,7 +56,7 @@ $(function() {
                 // 登录成功后需要把 token 令牌存放在本地
                 localStorage.setItem('token',res.token);
                 // 跳转到主页
-                // location.href = '/index.html';
+                location.href = '/index.html';
                 console.log(res)
             }
         })
